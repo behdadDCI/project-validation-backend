@@ -1,0 +1,12 @@
+### register user
+POST http://localhost:3500/api/register
+Content-Type: application/json
+
+{
+    "firstName": "Behdad",
+    "lastName": "Mirbani",
+    "email": "behdadkindle@gmail.com",
+    "password": "behdad1234",
+    "confirmPassword": "behdad1234"
+  
+}

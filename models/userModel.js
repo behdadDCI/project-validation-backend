@@ -29,6 +29,10 @@ const userSchema = new mongoose.Schema(
     access_token: {
       type: String,
     },
+    verifyToken: {
+      type:String,
+      
+    }
   },
   {
     timestamps: true,

@@ -10,3 +10,6 @@ Content-Type: application/json
     "confirmPassword": "behdad1234"
   
 }
+
+### login user
+GET http://localhost:3500/api/verify_token/ec5d2f3204410ea0b65f587f6c08b37c
